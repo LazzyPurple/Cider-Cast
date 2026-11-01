@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+licenses/** -whitespace
+sources/sender/vendor/LICENSE -whitespace

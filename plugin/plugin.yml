@@ -1,0 +1,11 @@
+identifier: local.marshall-cast
+ce_prefix: marshall-isolated
+name: Cider Cast
+description: Diffuse uniquement Cider vers Google Cast. Service Windows 11 requis.
+version: 1.0.0-rc.2
+author: LazzyPurple
+repo: https://github.com/LazzyPurple/Cider-Cast
+pluginKitVersion: 4
+entry:
+  plugin.js:
+    type: main

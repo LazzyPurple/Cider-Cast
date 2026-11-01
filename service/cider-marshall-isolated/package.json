@@ -1,0 +1,16 @@
+{
+  "name": "cider-cast",
+  "private": true,
+  "version": "1.0.0-rc.1",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "castv2": "0.1.10",
+    "multicast-dns": "7.2.5"
+  },
+  "overrides": {
+    "protobufjs": "8.8.1"
+  }
+}
