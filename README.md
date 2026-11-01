@@ -20,6 +20,7 @@ Pas de pilote virtuel supplémentaire. Node et .NET sont inclus dans le service,
 - Lecture, pause, précédent, suivant, progression et file d'attente restent dans Cider.
 - Cet ordinateur permet le retour PC. Le niveau PC précédent est conservé.
 - Fermez Cider avant de mettre à jour le service. Terminez toute restauration de l'ancienne sortie avant remplacement.
+- Pour migrer une version de test ancienne, terminez cette restauration **avant d'importer le nouveau plugin** : fermez puis rouvrez l'ancien Cider, ouvrez Sortie audio, puis refermez-le sans reconnecter Cast. Vous pouvez ensuite importer le nouveau plugin et installer son service. L'installateur refuse une restauration encore en attente.
 - L'installateur du service conserve les fichiers du plugin gérés par Cider. La connexion personnelle est créée localement et sauvegardée dans le stockage de Cider pour résister aux mises à jour du plugin. Une réinstallation du service répare l'association si nécessaire.
 - Le retrait du service conserve les sauvegardes et laisse le plugin sous le contrôle de Cider. Les scripts de retrait et de retour arrière se trouvent dans LocalAppData/CiderCast.
 
