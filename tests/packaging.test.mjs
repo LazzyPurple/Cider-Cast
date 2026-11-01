@@ -9,7 +9,7 @@ import { spawnSync } from 'node:child_process';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'), dist=path.join(root,'dist');
 const setup=path.join(dist,'Cider-Cast-Service-1.0.0-rc.2-Windows-x64.exe');
 test('ZIP Marketplace : manifeste et modules a la racine, sans secret ni executable', async () => {
-  const archive=path.join(dist,'local.marshall-cast-1.0.0-rc.2.zip');
+  const archive=path.join(dist,'Cider-Cast-1.0.0-rc.2.zip');
   const listing=spawnSync('python',['-c','import sys,json,zipfile; print(json.dumps(zipfile.ZipFile(sys.argv[1]).namelist()))',archive],{encoding:'utf8',windowsHide:true});
   assert.equal(listing.status,0,listing.stderr);const names=JSON.parse(listing.stdout);
   assert.ok(names.includes('plugin.yml')&&names.includes('plugin.js')&&names.includes('connection.js'));

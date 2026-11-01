@@ -9,7 +9,7 @@ Cette fiche prépare la soumission ; elle ne prouve pas qu'un projet est déjà 
 - Identifiant stable : **local.marshall-cast**
 - Dépôt et assistance : https://github.com/LazzyPurple/Cider-Cast
 - Licence : MIT ; notices tierces dans le dépôt et le service
-- Archive du plugin : https://github.com/LazzyPurple/Cider-Cast/releases/download/v1.0.0-rc.2/local.marshall-cast-1.0.0-rc.2.zip
+- Archive du plugin : https://github.com/LazzyPurple/Cider-Cast/releases/download/v1.0.0-rc.2/Cider-Cast-1.0.0-rc.2.zip
 - Service Windows : https://github.com/LazzyPurple/Cider-Cast/releases/download/v1.0.0-rc.2/Cider-Cast-Service-1.0.0-rc.2-Windows-x64.exe
 - Configuration requise : Windows 11 x64, Cider Microsoft Store 4.0.32 minimum, sortie Windows inutilisée et réseau local permettant Cast
 
