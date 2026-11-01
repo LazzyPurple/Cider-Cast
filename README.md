@@ -6,7 +6,7 @@ Diffusez uniquement la musique de Cider vers vos enceintes et groupes Google Cas
 
 ## Installation
 
-1. Installez le plugin dans Cider. Tant que le Marketplace ne le référence pas, utilisez le [ZIP du plugin](https://github.com/LazzyPurple/Cider-Cast/releases/download/v1.0.0-rc.2/Cider-Cast-1.0.0-rc.2.zip) avec l'importeur ZIP de Cider.
+1. Installation manuelle hors Marketplace : dans Cider, ouvrez Paramètres → Extensions → Plugins → menu ⋯ → Open AppData folder. Fermez Cider. Décompressez le [ZIP du plugin](https://github.com/LazzyPurple/Cider-Cast/releases/download/v1.0.0-rc.2/Cider-Cast-1.0.0-rc.2.zip) et placez son contenu dans plugins/local.marshall-cast de ce dossier AppData. Le fichier plugin.yml doit se trouver directement dans local.marshall-cast. Rouvrez Cider. La page Plugins de Cider 4.0.32 ne propose pas de bouton d'importation ZIP locale.
 2. Ouvrez Sortie audio → **Installer le service Windows**. Fermez Cider, puis ouvrez [l'installateur du service](https://github.com/LazzyPurple/Cider-Cast/releases/download/v1.0.0-rc.2/Cider-Cast-Service-1.0.0-rc.2-Windows-x64.exe).
 3. Rouvrez Cider. La connexion au service est configurée automatiquement : aucune clé à copier.
 4. Avec la roue dentée de Sortie audio, choisissez une sortie Windows inutilisée et disponible, qui restera réservée à Cider.
